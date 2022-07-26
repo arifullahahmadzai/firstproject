@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;  
+}
+ul li a{
+    margin: 30px;
+    text-decoration: none;  
+    color: black;
+}
+
+ul li a:hover{
+    background-color: yellow;
+    color: red;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 10%;
+    
+}
+main{
+    border-top: 1px solid gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh);
+}
+.bg{
+    width: 550px;
+    height:550;
+
+}
+.text{
+  width: 40%; 
+   
+}
+main h1{
+    font-size: 35px;
+    color: rgb(0, 195, 255);
+}
+main h2{
+    font-size: 20px;
+    color: blueviolet;
+    margin: 20px 0;
+}
+main p{
+    font-size: 20px;
+    font-weight: 800;
+    margin: 30px 0;
+    color: darkcyan;
+}
+main button{
+    padding: 10px;
+    background-color: bisque;
+    font-size:20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: red;
+    border-radius: 100px
+
+}
+main button:hover{
+    background-color: yellow;
+    font-size: 30px;
+    font-weight: 900;
+    
+}
+.signbtn{
+    padding: 10px;
+    background-color: bisque;
+    font-size:20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: red;
+    border-radius: 100px
+
+}
+
+
